@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="css/index.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+ 
+   <name>
+    <h1> WEIMAR ALDEMAR GOMEZ LOPEZ</h1>
+   </name>
+
+   <nav>
+    <button class ="nav-boton"onclick="accion()">Menú</button>
+      <a href="#"class="nav-enlace desaparece">Inicio</a>
+      <a href="#"class="nav-enlace desaparece">Estudios</a>
+      <a href="#"class="nav-enlace desaparece">Servicios </a>
+      <a href="#"class="nav-enlace desaparece">Contacto</a>
+   </nav>
+
+   <script>
+    function accion(){
+      console.log('esta funcionando mi boton');
+      var ancla = document.getElementsByClassName('nav-enlace');
+      for(var i = 0; i< ancla.length; i++){
+        ancla[i].classList.toggle('desaparece');
+      }
+    }
+   </script>
+
+  <div class ="name">
+    <div class = "img">
+        <img src="WEIMAR-ALDEMAR-GOMEZ-600x794.jpg" alt="">
+
+    </div>
+        <div class = "content">
+        <p class = "p-1">Weimar Aldemar Gómez López
+        <p class = "p-2"> 27 Años, Bachiller Técnico</p>                  
+        </div>
+  </div>  
+
+  <div class = "info">
+    <p class = "tituloSeccion">INFORMACION PERSONAL</p>
+    <p class = "tituloinfo">Nombre y Apellidos:</p>
+    <p class ="infoinfo">Weimar Aldemar Gómez López</p><br>
+    <p class = "tituloinfo">Telefono:</p>
+    <p class = "infoinfo">3115967396</p><br>
+    <p class = "tituloinfo"> Correo:</p>
+    <p class = "infoinfo">weimaralgomez@gmail.com</p><br>
+    <p class = "tituloinfo"> Dirección:</p>
+    <p class = "infoinfo">Casa 22 Barrio Villa Paola MONIQUIRÁ</p><br>
+        </div>
+
+  <div class = "info">
+    <p class = "tituloSeccion">PERFIL</p><br>
+    <p class = "infoinfo">Técnico en sistemas, con competencias y habilidades laborales,
+        conocimientos en instalación de nuevos software, ensamble de nuevos
+        equipos, mantenimiento preventivo y predictivo que garantice el
+        funcionamiento del hardware de los equipos, manejo de herramientas
+        ofimáticas, redes sociales y colaborativas de acuerdo con el proyecto a
+        desarrollar, conocimiento en programas para la edición de audio y video,
+        Actualmente me encuentro en tercer semestre de Ingeniera Multimedia en
+        la Universidad Nacional Abierta y a Distancia, me considero de aprendizaje
+        rápido y adaptación en los diferentes medios de trabajo.</p>
+    </div>   
+
+  <div class = "info">
+     <p class = "tituloSeccion">ESTUDIOS REALIZADOS</p>
+     <p class = "tituloinfo">PRIMARIA:</p>
+     <p class ="infoinfo">Escuela Rural El Chovo Moniquirá</p><br>
+     <p class = "tituloinfo">SECUNDARIA:</p>
+     <p class ="infoinfo">Instituto Técnico Industrial de Puente Nacional, Institución Educativa Técnica Antonio Nariño Moniquirá 
+    </div>
+
+<div class = "info">
+    <p class = "tituloSeccion">OTROS ESTUDIOS </p>
+    <p class = "tituloinfo">SENA:</p>
+    <p class ="infoinfo">Técnico en Sistemas,Un año,Moniquirá</p><br>
+    <p class = "tituloinfo">SENA:</p>
+    <p class ="infoinfo">Producción de Televisión, 100 horas, Moniquirá</p><br>
+    <p class = "tituloinfo">UNAD:</p>
+    <p class ="infoinfo">Ingenieria en Multiemdia, Tunja </p><br>
+  </div>
+
+  <div class = "info">
+    <p class = "tituloSeccion">EXPERIENCIA LABORAL </p>
+    <p class = "tituloinfo">PRODUCTOR GENERAL:</p>
+    <p class ="infoinfo">JL Radio Digital - Moniquirá</p><br>
+    <p class = "tituloinfo">CAMAROGRAFO - EDITOR::</p>
+    <p class ="infoinfo">Canal TRO - pProvincia de Vélez</p><br>
+    <p class = "tituloinfo">PRODUCTOR:</p>
+    <p class ="infoinfo">Canal MONITV - Moniquirá </p><br>
+  </div> 
+
+  
+</body>
+</html>
+
+
+ 
